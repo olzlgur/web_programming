@@ -16,10 +16,28 @@ html{
 }
 a{
   text-decoration: none;
+  font-family: Georgia, serif;
 }
+
+a:visited {
+  color : white;
+}
+
 a:link{
   color: white;
 }
+
+.categori .another{
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: Georgia, serif;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}
+
 
 .categori .main{
   margin-top: 10px;
@@ -31,15 +49,6 @@ a:link{
   height: 30px;
 }
 
-.categori .another{
-  margin-top: 10px;
-  font-size: 15px;
-  color: white;
-  background-color: rgb(241, 77, 36);
-  border-radius: 10px;
-  width: 80px;
-  height: 30px;
-}
 
 .card-banner h2{
   text-align: center;
@@ -245,7 +254,8 @@ input::-webkit-input-placeholder { color: #f00; }
 .new{
   font-size: large;
   color: white;
-  background-color: rgb(241, 77, 36);;
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   width: 50px;
   height: 50px;
   border-radius: 30px;

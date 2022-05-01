@@ -128,8 +128,8 @@ label{
   color:white;
   border-radius: 5px;
   padding: 5px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(241, 77, 36);
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-right: 20px;
 }
 
@@ -146,10 +146,10 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
 .submit{
   width:60px;
   height:30px;
-  background-color:rgb(241, 77, 36);
+  background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: aliceblue;
   margin:15px;
-  font-family: 'Roboto';
   font-size:15px;
   text-align: center;
   border-radius: 10px;
@@ -157,4 +157,8 @@ input:focus:-ms-input-placeholder, textarea:focus:-ms-input-placeholder {
   margin-bottom:1%;
   border:0;
   outline: 0;
+}
+
+a:visited {
+  color : white;
 }
